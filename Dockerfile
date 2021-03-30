@@ -30,7 +30,13 @@ RUN apt-get update && \
     ca-certificates \
     patch \
     ffmpeg \
-    vim && \
+    curl \
+    python-qt4 \
+    libjpeg-dev \
+    zip \
+    unzip \
+    libpng-dev \
+    vim &&\
     rm -rf /var/lib/apt/lists/*
 
 ENV LD_LIBRARY_PATH /usr/local/nvidia/lib:/usr/local/nvidia/lib64
