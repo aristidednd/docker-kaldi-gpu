@@ -26,7 +26,6 @@ RUN apt-get update && \
     zlib1g-dev \
     gfortran \
     libboost-all-dev \
-    libfst-tools \
     libsox-fmt-all \
     ca-certificates \
     patch \
