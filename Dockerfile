@@ -66,8 +66,8 @@ ENV WORK_DIR=/storage
 ENV KALDI_DIR=/opt/kaldi
 ENV KALDI_SCRIPTS=/opt/kaldi/scripts
 
-RUN rm /bin/sh
-RUN ln -s /bin/bash /bin/sh
+# RUN rm /bin/sh
+# RUN ln -s /bin/bash /bin/sh
 
 ENV USER kaldi
 # Create Environment
